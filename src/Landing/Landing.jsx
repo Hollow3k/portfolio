@@ -15,7 +15,7 @@ function Landing() {
         <h2>Full Stack Developer</h2>
       </div>
     < div className='figure'> 
-        <img src='../../public/figure.png' alt='figure' />
+        <img src='/figure.png' alt='figure' />
       </div>
     </span>
   )
