@@ -1,0 +1,48 @@
+.skills{
+    min-height: 100vh;
+    gap: 30px;
+}
+
+.skills .heading{
+    margin-left: 80px;
+    padding-top: 50px;
+    display: flex;
+    align-items:  center;
+    gap: 20px;
+}
+
+.red-dot{
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    width: 55px;
+    height: 55px;
+}
+
+.skills h1{
+    font-size: 110px;
+    font-weight: 400;
+}
+
+.web{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#webT{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.lang{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#webL{
+    font-size: 50px;
+    font-weight: 400;
+}
