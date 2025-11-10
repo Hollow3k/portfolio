@@ -3,6 +3,7 @@ import './App.css'
 import Landing from './Landing/Landing.jsx'
 import Skills from './Skills/Skills.jsx'
 import Projects from './Projects/Projects.jsx'
+import ReachOutForm from './Reach/Reach.jsx'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Landing/>
     <Skills/>
     <Projects/>
+    <ReachOutForm/>
     </>
   )
 }
