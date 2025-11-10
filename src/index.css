@@ -11,6 +11,7 @@
 
 body{
   background-color: rgb(243, 243, 243);
+  overflow-x: hidden;
 }
 
 ::selection {

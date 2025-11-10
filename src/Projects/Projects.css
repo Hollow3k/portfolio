@@ -1,0 +1,41 @@
+.projects {
+    position: relative;
+    min-height: 100vh;
+}
+
+.projects .heading {
+    position: relative;
+    margin-left: 80px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.red-dot {
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    width: 55px;
+    height: 55px;
+}
+
+.projects h1 {
+    font-size: 110px;
+    font-weight: 400;
+} 
+
+#container {
+    display: flex;
+    width: 100vw;
+    margin-top: 10vh;
+    overflow: hidden;
+    min-height: 65vh;
+}
+
+#container .content {
+    width: 100vw;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
