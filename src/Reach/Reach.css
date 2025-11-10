@@ -75,8 +75,7 @@
   margin-bottom: 0.5rem;
 }
 
-.input-field,
-.textarea-field {
+.input-field {
   width: 100%;
   padding: 1rem 1.5rem;
   border-radius: 0.5rem;
@@ -88,13 +87,12 @@
   transition: all 0.3s ease;
 }
 
-.input-field:focus,
-.textarea-field:focus {
+.input-field:focus{
   outline: none;
   box-shadow: 0 0 0 3px rgba(209, 213, 219, 0.5);
 }
 
-.textarea-field {
+#message {
   resize: none;
 }
 
@@ -114,6 +112,10 @@
 
 .submit-btn:hover {
   background-color: #000000;
+}
+
+.submit-btn:active, submit-btn:focus {
+    background-color: #3cff00;
 }
 
 /* Social Media Section */

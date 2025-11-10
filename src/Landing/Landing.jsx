@@ -1,15 +1,22 @@
 import React from 'react'
 import './Landing.css'
+import { gsap } from 'gsap';
+import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
+
+gsap.registerPlugin(ScrollToPlugin);
 
 function Landing() {
+  const scrollToSection = (sectionId) => {
+    gsap.to(window, { duration: 1, scrollTo: sectionId });
+  };
+
   return (
     <span className='landing'>
       <div className='text'>
         <div className="navButtons">
-            <button className='navButton' id = "skills"></button>
-          <button className='navButton' id = "projects"></button>
-          <button className='navButton' id = "links"></button>
-          <button className='navButton' id = "contact"></button>
+          <button className='navButton' onClick={() => scrollToSection('#skills')}></button>
+          <button className='navButton' onClick={() => scrollToSection('#projects')}></button>
+          <button className='navButton' onClick={() => scrollToSection('#reachout')}></button>
         </div>
         <h1>Angad Bajaj</h1>
         <h2>Full Stack Developer</h2>
@@ -22,3 +29,4 @@ function Landing() {
 }
 
 export default Landing
+

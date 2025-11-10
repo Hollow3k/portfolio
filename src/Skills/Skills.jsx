@@ -6,7 +6,7 @@ const velocity = 100;
 
 function Skills() {
   return (
-    <div className='skills'>
+    <div className='skills' id="skills">
         <div className='heading'>
             <div className='red-dot'></div>
             <h1>Skills</h1>

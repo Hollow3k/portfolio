@@ -1,9 +1,10 @@
 import React from 'react';
 import './Reach.css';
+import sendMail from '../email';
 
 export default function ReachOutForm() {
   return (
-    <div className="reach-out-container">
+    <div className="reach-out-container" id="reachout">
       <div className="reach-out-card">
         <div className="header">
           <div className="red-dot"></div>
@@ -19,28 +20,31 @@ export default function ReachOutForm() {
                 type="text"
                 name="name"
                 className="input-field"
+                id="name"
               />
             </div>
 
             <div className="form-group">
-              <label className="label">Email</label>
+              <label className="label" >Email</label>
               <input
                 type="email"
                 name="email"
                 className="input-field"
+                id="mail"
               />
             </div>
 
             <div className="form-group">
               <label className="label">Message</label>
-              <textarea
+              <input
                 name="message"
                 rows="6"
-                className="textarea-field"
-              ></textarea>
+                className="input-field"
+                id="message"
+              ></input>
             </div>
 
-            <button className="submit-btn">
+            <button id="sendd" className="submit-btn" onClick={sendMail}>
               Send
             </button>
           </div>
