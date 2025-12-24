@@ -51,7 +51,7 @@ function Projects() {
         <div className="content"><Card
         src="/ge.png"
         title="Gemini Clone"
-        description="Lorem Ipsum Lorem Ipsum Lorem IpsumLoremIpsumvLorem Ipsum Lorem IpsumLorem IpsLorem Ipsum Lorem Ipsum Lorem IpsumvLorem IpsuLorem IpsumLorem Ipsum Lorem Ipsum IpsumLoremIpsumvLorem Ipsum Lorem IpsumLorem IpsLorem Ipsum Lorem Ipsum Lorem IpsumvLorem"
+        description="A working clone of Gemini.com with GEMINI API integration focused at frontend development with ReactJS."
         techStack="ReactJS"
         icon="/react.png"
         link="https://geminiclone-beryl.vercel.app/"/>
@@ -59,7 +59,7 @@ function Projects() {
         <div className="content"><Card
         src="/gt3rs.png"
         title="Porsche 3D Viewer"
-        description="Lorem Ipsum Lorem Ipsum Lorem IpsumLoremIpsumvLorem Ipsum Lorem IpsumLorem IpsLorem Ipsum Lorem Ipsum Lorem IpsumvLorem IpsuLorem IpsumLorem Ipsum Lorem Ipsum IpsumLoremIpsumvLorem Ipsum Lorem IpsumLorem IpsLorem Ipsum Lorem Ipsum Lorem IpsumvLorem"
+        description="An interactive 3D viewer for a Porsche model, built with ReactJS and Three.js, allowing users to explore car details in a virtual environment."
         techStack="ReactJS Three.js"
         icon="/react.png"
         link="https://gt3rshex.vercel.app/"/>
@@ -67,7 +67,7 @@ function Projects() {
         <div className="content"><Card
         src="/alore.png"
         title="Alore : An ecommerce website"
-        description="Lorem Ipsum Lorem Ipsum Lorem IpsumLoremIpsumvLorem Ipsum Lorem IpsumLorem IpsLorem Ipsum Lorem Ipsum Lorem IpsumvLorem IpsuLorem IpsumLorem Ipsum Lorem Ipsum IpsumLoremIpsumvLorem Ipsum Lorem IpsumLorem IpsLorem Ipsum Lorem Ipsum Lorem IpsumvLorem"
+        description="Work in Progress -- An ecommerce website (For a premium jewellery brand)built with ReactJS, featuring a user-friendly interface and seamless shopping experience."
         techStack="ReactJS"
         icon="/react.png"
         link="https://alore-lemon.vercel.app/"/>
@@ -75,7 +75,7 @@ function Projects() {
         <div className="content"><Card
         src="/poke.png"
         title="Pokedex"
-        description="Lorem Ipsum Lorem Ipsum Lorem IpsumLoremIpsumvLorem Ipsum Lorem IpsumLorem IpsLorem Ipsum Lorem Ipsum Lorem IpsumvLorem IpsuLorem IpsumLorem Ipsum Lorem Ipsum IpsumLoremIpsumvLorem Ipsum Lorem IpsumLorem IpsLorem Ipsum Lorem Ipsum Lorem IpsumvLorem"
+        description="A comprehensive Pokedex application built with HTML, CSS, and JavaScript, providing detailed information about various Pokémon."
         techStack="HTML CSS JavaScript"
         icon="/react.png"
         link="https://hollow3k.github.io/Pokedex/"/>
