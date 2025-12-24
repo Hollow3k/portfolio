@@ -77,7 +77,6 @@ function Projects() {
         title="Pokedex"
         description="A comprehensive Pokedex application built with HTML, CSS, and JavaScript, providing detailed information about various Pokémon."
         techStack="HTML CSS JavaScript"
-        icon="/react.png"
         link="https://hollow3k.github.io/Pokedex/"/>
         </div>
       </div>
