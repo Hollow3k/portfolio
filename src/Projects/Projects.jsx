@@ -57,14 +57,6 @@ function Projects() {
         link="https://geminiclone-beryl.vercel.app/"/>
         </div>
         <div className="content"><Card
-        src="/gt3rs.png"
-        title="Porsche 3D Viewer"
-        description="An interactive 3D viewer for a Porsche model, built with ReactJS and Three.js, allowing users to explore car details in a virtual environment."
-        techStack="ReactJS Three.js"
-        icon="/react.png"
-        link="https://gt3rshex.vercel.app/"/>
-        </div>
-        <div className="content"><Card
         src="/alore.png"
         title="Alore : An ecommerce website"
         description="Work in Progress -- An ecommerce website (For a premium jewellery brand)built with ReactJS, featuring a user-friendly interface and seamless shopping experience."
@@ -78,6 +70,14 @@ function Projects() {
         description="A comprehensive Pokedex application built with HTML, CSS, and JavaScript, providing detailed information about various Pokémon."
         techStack="HTML CSS JavaScript"
         link="https://hollow3k.github.io/Pokedex/"/>
+        </div>
+        <div className="content"><Card
+        src="/gt3rs.png"
+        title="Porsche 3D Viewer"
+        description="An interactive 3D viewer for a Porsche model, built with ReactJS and Three.js, allowing users to explore car details in a virtual environment."
+        techStack="ReactJS Three.js"
+        icon="/react.png"
+        link="https://gt3rshex.vercel.app/"/>
         </div>
       </div>
     </section>
